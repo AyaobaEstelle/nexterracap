@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+}
+
+.horizontalLine {
+  width: 85%;
+  border: none;
+  border-top: 1px solid black;
+  margin: 20px 0;
+}
+
+.countersWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.counterRow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--blue-300);
+}
+
+.text {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.verticalLine {
+  border: none;
+  border-left: 1px solid black;
+  height: 100px;
+}
