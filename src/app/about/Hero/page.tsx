@@ -20,7 +20,7 @@ export default function Hero() {
             <a href="/" className={styles.heroNavItem}>
               About
             </a>
-            <a href="#" className={styles.heroNavItem}>
+            <a href="/esg" className={styles.heroNavItem}>
               ESG
             </a>
             <div className={styles.dropdown}>
@@ -39,19 +39,13 @@ export default function Hero() {
               {isDropdownOpen && (
                 <ul className={styles.dropdownMenu}>
                   <li className={styles.dropdownItem}>
-                    <a
-                      href="https://nexterracap.com/strategy/"
-                      className={styles.dropdownLink}
-                    >
+                    <a href="/strategy" className={styles.dropdownLink}>
                       Investment Strategy
                     </a>
                   </li>
                   <li className={styles.dropdownItem}>
-                    <a
-                      href="https://nexterracap.com/strategy/syndicate/"
-                      className={styles.dropdownLink}
-                    >
-                      Sindicate Investment
+                    <a href="/syndicate" className={styles.dropdownLink}>
+                      Syndicate Investment
                     </a>
                   </li>
                 </ul>

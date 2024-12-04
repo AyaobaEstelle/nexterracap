@@ -1,5 +1,5 @@
-.hero {
-  background-image: url("../../../../public/img/aurora.png");
+.container {
+  background-image: url("../../../public/img/aurora.png");
   background-repeat: no-repeat;
   background-position: center top;
   width: 100%;
@@ -56,57 +56,31 @@
 }
 
 .heroText {
-  width: fit-content;
+  max-width: 60%;
   margin-inline: auto;
   margin-block-start: 5em;
 }
 .heroTitle {
   line-height: 2;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 3rem;
   text-align: center;
   color: var(--blue-300);
+  text-transform: uppercase;
 }
-
-.heroNormal {
+.heroTitle span {
   color: var(--black);
 }
 
-.heroTitleHighlight {
-  color: var(--blue-300);
-  position: relative;
-}
-.heroTitleHighlight:after {
-  content: "";
-  background: url("data:image/svg+xml,%3Csvg width='174' height='21' viewBox='0 0 174 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M162.517 0.905029C75.1007 1.58333 17.7488 11.4833 0 16.3486L9.28502 15.694L2.32125 17.9693L10.2135 17.6848L6.03526 19.3913L12.0705 20.8133C52.0748 16.4528 149.09 6.6406 173.63 5.2387L155.524 4.88668C165.556 3.5543 166.666 3.60686 166.666 3.60686C166.666 3.60686 162.517 2.61145 162.517 0.905029Z' fill='%23005AE2'/%3E%3C/svg%3E%0A")
-    bottom center no-repeat;
-  position: absolute;
-  width: 180px;
-  height: 50%;
-  bottom: -0.3em;
-  left: 20%;
-}
-
 .heroSubtitle {
-  margin-block-start: 2em;
   font-size: 1.2rem;
   text-align: center;
 }
-
-.heroLink {
-  background: var(--blue-300);
-  color: var(--white);
-  padding: 0.5em 2em;
-  border-radius: 8px;
+.heroSubtitle p {
+  margin: 20px;
   font-size: 1rem;
-  font-weight: bold;
-  margin-inline: auto;
-  margin-block: 3em;
-  width: fit-content;
-  display: flex;
-  align-items: center;
+  color: var(--black);
 }
-
 .dropdown {
   position: relative;
 }
@@ -160,11 +134,13 @@
   margin: 5px 0;
   transition: color 0.3s ease;
 }
-
 .button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding: 3rem 3em;
+  padding: 2rem;
+  text-align: center;
+}
+.button button {
+  background-color: var(--blue-300);
+  color: var(--white);
+  padding: 1rem 3rem;
+  border-radius: 8px;
 }

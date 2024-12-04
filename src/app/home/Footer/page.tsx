@@ -5,12 +5,6 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <div className={styles.newsletter}>
-        <h1>Nexterra Newsletter</h1>
-        <button>
-          <a href="#">subscribe</a>
-        </button>
-      </div>
       <div className={styles.divider}></div>
 
       <div className={styles.textSection}>
