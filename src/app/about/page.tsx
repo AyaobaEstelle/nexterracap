@@ -3,7 +3,7 @@ import Hero from "./Hero/page";
 import People from "./People/page";
 import Diverse from "./Diverse/page";
 import Why from "./Why/page";
-import Footer from "../pages/Footer/page";
+import Footer from "../home/Footer/page";
 
 export default function About() {
   return (

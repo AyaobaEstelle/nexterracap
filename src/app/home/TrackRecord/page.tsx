@@ -26,11 +26,11 @@ const TrackRecords = () => {
         <h1>Track Record</h1>
         <p>
           Nexterra GP boasts a proven track record of catalyzing company growth.
-          Our renowned asynchronous accelerator, ‘LabEight* Africa,’ and our
-          expertise in successful fundraise initiatives with the Syndicate Fund
-          have earned us a reputation for driving exceptional outcomes. We
-          leverage our deep experience to propel companies forward and unlock
-          their true potential.
+          Our renowned asynchronous accelerator, &lsquo;LabEight Africa &rsquo;,
+          and our expertise in successful fundraise initiatives with the
+          Syndicate Fund have earned us a reputation for driving exceptional
+          outcomes. We leverage our deep experience to propel companies forward
+          and unlock their true potential.
         </p>
         <div className={styles.teamCounter}>
           <Counters />

@@ -1,8 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
-import Link from "next/link";
-// import Button from "../Button/page";
 
 export default function Hero() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -16,7 +14,7 @@ export default function Hero() {
         <header className={styles.heroHeader}>
           <img src="https://i.postimg.cc/DfCvjcVb/nexterra-img.png" alt="" />
           <nav className={styles.heroNav}>
-            <a href="/pages" className={styles.heroNavItem}>
+            <a href="/home" className={styles.heroNavItem}>
               Home
             </a>
             <a href="/" className={styles.heroNavItem}>
