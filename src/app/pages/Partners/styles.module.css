@@ -1,0 +1,92 @@
+.partners {
+  padding-top: 2em;
+}
+.content {
+  padding: 2rem 8rem;
+  background-color: var(--blue-50);
+} 
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--black);
+}
+
+.content p {
+  font-size: 1rem;
+  color: var(--black);
+  padding-bottom: 5rem;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.scrollContainer {
+  height: 50vh;
+}
+
+.carouselPrimary,
+.carouselSecondary {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.carouselPrimary img {
+  align-items: center;
+
+}
+
+.carouselPrimary {
+  display: flex;
+  justify-content: space-around;
+  animation: scroll-horizontal 20s linear infinite;
+}
+
+.carouselSecondary {
+  animation: scroll-horizontal 20s linear infinite;
+  animation-delay: 10s;
+}
+
+@keyframes scroll-horizontal {
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
+
+.carouselPrimary:hover,
+.carouselPrimary:hover~.carouselSecondary {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+.carouselSecondary:hover {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+
+.scrollContainer:hover>.carouselPrimary:not(:hover) {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+
+ 

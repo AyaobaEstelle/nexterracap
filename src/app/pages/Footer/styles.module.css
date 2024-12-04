@@ -1,0 +1,107 @@
+.footer {
+  padding-block: 3em;
+  background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%),
+    no-repeat top left / 66% 100% url("/img/footer-left.png"),
+    no-repeat bottom right / 66% 100% url("/img/footer-right.png");
+  background-blend-mode: screen;
+  text-align: center;
+}
+
+.newsletter {
+  padding: 2rem 3rem;
+}
+.newsletter h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--white);
+  font-weight: 700;
+}
+.newsletter button {
+  background-color: var(--blue-300);
+  color: var(--white);
+  border: none;
+  padding: 1rem 4rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.newsletter button:hover {
+  background-color: var(--blue-400);
+}
+.newsletter button a {
+  font-size: 1.2rem;
+}
+.textSection {
+  margin-block-start: 3rem;
+  padding: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.textSection small {
+  color: var(--white);
+}
+.policySection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.policySection a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.button {
+  background-color: var(--blue-300);
+  color: var(--white);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: var(--blue-400);
+}
+
+.divider {
+  border-top: 2px dotted #ddd;
+  margin: 20px 0;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 5rem;
+}
+.bottomSection p {
+  color: var(--white);
+  font-size: 0.8rem;
+}
+.bottomSection h1 {
+  font-size: 1.3rem;
+  color: var(--blue-300);
+}
+
+.socialLinks {
+  display: flex;
+  gap: 5px;
+}
+
+.socialLinks img {
+  width: 30px;
+  height: 30px;
+  margin: 15px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.socialLinks img:hover {
+  transform: scale(1.1);
+}
