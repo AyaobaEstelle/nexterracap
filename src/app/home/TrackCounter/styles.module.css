@@ -1,6 +1,6 @@
 .dualCounter {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   gap: 40px;
   padding: 20px;

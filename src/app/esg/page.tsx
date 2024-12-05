@@ -98,12 +98,12 @@ export default function Esg() {
           <p>
             Environmental, social and governance and impact (ESGI)
             considerations are a fundamental part of this commitment. Our ESGI
-            strategy is deeply rooted in Nexterra’s DNA, and aims to go beyond
-            ESG to maximize positive impact for the communities. Our impact
-            approach focuses on improving the sustainability of operations and
-            job quality and diversity in every portfolio company. We infuse a
-            culture of strong ESG responsibility, so that the ESG commitment
-            lives on well beyond our investment.
+            strategy is deeply rooted in Nexterra&#8217;s DNA, and aims to go
+            beyond ESG to maximize positive impact for the communities. Our
+            impact approach focuses on improving the sustainability of
+            operations and job quality and diversity in every portfolio company.
+            We infuse a culture of strong ESG responsibility, so that the ESG
+            commitment lives on well beyond our investment.
           </p>
         </div>
         <div className={styles.textContentItem}>
@@ -122,7 +122,7 @@ export default function Esg() {
               </p>
               <p>
                 Within Nexterra govern our environmental and social management
-                system (ESMS), which builds on the IFC’s Sustainability
+                system (ESMS), which builds on the IFC&#8217;s Sustainability
                 Framework to provide insights to inform responsible investment
                 decision-making, reporting and risk mitigation throughout the
                 investment cycle.
