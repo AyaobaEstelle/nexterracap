@@ -19,7 +19,7 @@ const Footer = () => {
           <p>|</p>
           <a href="#"> Disclaimer</a>
         </div>
-        <Link href="/contact">
+        <Link href="https://nexterra.notion.site/Job-Board-943e196984f244f6a99654fad529ff48">
           <button className={styles.button}>Jobs</button>
         </Link>
       </div>

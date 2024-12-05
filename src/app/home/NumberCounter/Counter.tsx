@@ -1,3 +1,5 @@
+"use client";
+
 import Counter from "./page";
 import styles from "./counter.module.css";
 const Counters = () => {

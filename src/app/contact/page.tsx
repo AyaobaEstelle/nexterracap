@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
 import Footer from "../home/Footer/page";
 
-export default function Syndicate() {
+export default function Insights() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -18,7 +18,7 @@ export default function Syndicate() {
             <a href="/home" className={styles.heroNavItem}>
               Home
             </a>
-            <a href="/about" className={styles.heroNavItem}>
+            <a href="about" className={styles.heroNavItem}>
               About
             </a>
             <a href="esg" className={styles.heroNavItem}>
@@ -45,7 +45,7 @@ export default function Syndicate() {
                     </a>
                   </li>
                   <li className={styles.dropdownItem}>
-                    <a href="/" className={styles.dropdownLink}>
+                    <a href="/syndicate" className={styles.dropdownLink}>
                       Syndicate Investment
                     </a>
                   </li>
@@ -57,38 +57,27 @@ export default function Syndicate() {
             <a href="/insights" className={styles.heroActionLink}>
               Insights
             </a>
-            <a href="/contact" className={styles.heroActionButton}>
+            <a href="/" className={styles.heroActionButton}>
               Contact
             </a>
           </div>
         </header>
-
-        <div className={styles.heroText}>
-          <h1 className={styles.heroTitle}>
-            D<span>eal by deal syndicate investments</span>
-          </h1>
-          <div className={styles.heroSubtitle}>
-            <p>
-              Our Syndicate investments is a collaborative investment approach
-              that brings together a network of strategic partners and
-              investors. This strategy provides a platform for pooling
-              resources, expertise, and capital to support promising startups.
-              With a focus on tech and tech-enabled businesses across various
-              sectors, including fintech, climate, health, and agriculture, we
-              leverage our deep market knowledge and extensive network to
-              identify high-potential investment opportunities.
-            </p>
-            <p>
-              Through our Syndicate investments, we strive to drive sustainable
-              growth, create meaningful impact, and deliver attractive returns
-              to our investors.
-            </p>
-          </div>
-        </div>
-        <div className={styles.button}>
+      </div>
+      <div className={styles.text}>
+        <h2>Contact us</h2>
+        <p>
+          PLEASE FILL OUT ONE OF THE FORMS BELOW AND WE WILL BE IN TOUCH AS SOON
+          AS POSSIBLE
+        </p>
+        <div className={styles.contactButton}>
           <button>
-            <a href="https://venture.angellist.com/nexterra/syndicate">
-              Join the Syndicate
+            <a href="https://share-eu1.hsforms.com/1k1EyUwMLQZuu_54oNvtDogfu7um">
+              apply for funding
+            </a>
+          </button>
+          <button>
+            <a href="https://share-eu1.hsforms.com/1MgjuEspOT-ax0vGUkp5ESQfu7um">
+              investors/general enquiry
             </a>
           </button>
         </div>

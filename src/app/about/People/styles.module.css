@@ -98,8 +98,8 @@
     display: flex;
   }
   .socials img {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     margin: 5px;
     cursor: pointer;
     transition: transform 0.3s;

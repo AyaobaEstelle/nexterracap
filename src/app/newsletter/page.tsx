@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
 import Footer from "../home/Footer/page";
 
-export default function Syndicate() {
+export default function Newsletter() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -18,7 +18,7 @@ export default function Syndicate() {
             <a href="/home" className={styles.heroNavItem}>
               Home
             </a>
-            <a href="/about" className={styles.heroNavItem}>
+            <a href="about" className={styles.heroNavItem}>
               About
             </a>
             <a href="esg" className={styles.heroNavItem}>
@@ -45,7 +45,7 @@ export default function Syndicate() {
                     </a>
                   </li>
                   <li className={styles.dropdownItem}>
-                    <a href="/" className={styles.dropdownLink}>
+                    <a href="/syndicate" className={styles.dropdownLink}>
                       Syndicate Investment
                     </a>
                   </li>
@@ -57,38 +57,38 @@ export default function Syndicate() {
             <a href="/insights" className={styles.heroActionLink}>
               Insights
             </a>
-            <a href="/contact" className={styles.heroActionButton}>
+            <a href="/" className={styles.heroActionButton}>
               Contact
             </a>
           </div>
         </header>
+      </div>
+      <div className={styles.text}>
+        <h2>Newsletter</h2>
+        <div className={styles.textContent}>
+          <p>
+            If you&rsquo;re looking to stay up-to-date on the latest news, and
+            exciting updates about us, we invite you to sign up for our
+            newsletter below. Our newsletter is the perfect way to keep in touch
+            with us and never miss out on the latest and greatest information.
+          </p>
+          <p>
+            As a subscriber, you&rsquo;ll receive timely and relevant
+            information about Nexterra Capital, delivered straight to your
+            inbox. Nexterra Capital Newsletter is a great way to stay connected
+            with us and never miss out on anything important. We promise to keep
+            you informed, without overwhelming your inbox.
+          </p>
 
-        <div className={styles.heroText}>
-          <h1 className={styles.heroTitle}>
-            D<span>eal by deal syndicate investments</span>
-          </h1>
-          <div className={styles.heroSubtitle}>
-            <p>
-              Our Syndicate investments is a collaborative investment approach
-              that brings together a network of strategic partners and
-              investors. This strategy provides a platform for pooling
-              resources, expertise, and capital to support promising startups.
-              With a focus on tech and tech-enabled businesses across various
-              sectors, including fintech, climate, health, and agriculture, we
-              leverage our deep market knowledge and extensive network to
-              identify high-potential investment opportunities.
-            </p>
-            <p>
-              Through our Syndicate investments, we strive to drive sustainable
-              growth, create meaningful impact, and deliver attractive returns
-              to our investors.
-            </p>
-          </div>
+          <p>We look forward to welcoming you to the community.</p>
         </div>
-        <div className={styles.button}>
+
+        <h3>Subscribe below to get the latest news and Updates.</h3>
+
+        <div className={styles.contactButton}>
           <button>
-            <a href="https://venture.angellist.com/nexterra/syndicate">
-              Join the Syndicate
+            <a href="https://share.hsforms.com/1VgxTm0LySlCDmScsmiCpbQsu01u">
+              subscribe
             </a>
           </button>
         </div>

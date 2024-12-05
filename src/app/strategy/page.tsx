@@ -99,7 +99,9 @@ export default function Strategy() {
             </div>
           </div>
           <button>
-            <a href="#">Invest with us</a>
+            <a href="https://share-eu1.hsforms.com/1MgjuEspOT-ax0vGUkp5ESQfu7um">
+              Invest with us
+            </a>
           </button>
         </div>
       </div>
@@ -168,7 +170,7 @@ export default function Strategy() {
       <hr className={styles.divider} />
       <div className={styles.funds}>
         <button>
-          <a href="">Go to Nexterra Syndicate Funds</a>
+          <a href="/syndicate">Go to Nexterra Syndicate Funds</a>
         </button>
       </div>
       <Footer />

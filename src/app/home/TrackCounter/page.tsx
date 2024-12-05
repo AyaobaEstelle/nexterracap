@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
 
@@ -13,7 +14,7 @@ const TrackCounter: React.FC<CounterProps> = ({ target, label }) => {
     if (count < target) {
       const interval = setInterval(() => {
         setCount((prev) => Math.min(prev + 1, target));
-      }, 50); // Adjust speed here
+      }, 50);
       return () => clearInterval(interval);
     }
   }, [count, target]);
