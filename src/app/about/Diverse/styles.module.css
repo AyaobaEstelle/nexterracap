@@ -1,0 +1,18 @@
+.container {
+  padding-block: 3em;
+  background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%),
+    no-repeat top left / 66% 100% url("/img/opp-left.png"),
+    no-repeat bottom right / 66% 100% url("/img/opp-right.png");
+  background-blend-mode: screen;
+}
+
+.content {
+  padding: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.content p {
+  color: var(--white);
+  text-align: center;
+  font-size: 1.2rem;
+}
