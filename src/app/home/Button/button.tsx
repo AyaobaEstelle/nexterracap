@@ -8,7 +8,7 @@ interface ButtonProps {
 const Button = ({ text, onClick }: ButtonProps) => {
   return (
     <div className={styles.buttonContainer}>
-      <button className={styles.button} onClick={onClick}>
+      <a className={styles.button} onClick={onClick}>
         <span>{text}</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ const Button = ({ text, onClick }: ButtonProps) => {
             d="M5 12h20m0 0l-8-8m8 8l-8 8"
           />
         </svg>
-      </button>
+      </a>
       <div className={styles.underline}>
         <hr />
       </div>

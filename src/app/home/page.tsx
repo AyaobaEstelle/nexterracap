@@ -1,11 +1,11 @@
 import React from "react";
-import Hero from "./Hero/page";
-import Team from "./Team/page";
-import InvestmentItems from "./Investment/page";
-import Opportunity from "./Oppurtunity/page";
-import TrackRecords from "./TrackRecord/page";
-import Partners from "./Partners/page";
-import Footer from "./Footer/page";
+import Hero from "./Hero/hero";
+import InvestmentItems from "./Investment/investment";
+import Opportunity from "./Oppurtunity/opportunity";
+import TrackRecords from "./TrackRecord/track-record";
+import Partners from "./Partners/partner";
+import Footer from "./Footer/footer";
+import Team from "./Team/team";
 
 export default function Home() {
   return (

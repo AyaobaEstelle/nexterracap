@@ -30,7 +30,7 @@
 }
 
 .button {
-  background-color: var(--blue-300);
+  background-color: var(--brand-400);
   color: var(--white);
   border: none;
   padding: 0.5rem 1rem;
@@ -61,7 +61,7 @@
 }
 .bottomSection h1 {
   font-size: 1.3rem;
-  color: var(--blue-300);
+  color: var(--brand-400);
 }
 
 .socialLinks {

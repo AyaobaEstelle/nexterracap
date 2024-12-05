@@ -1,8 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
-import Link from "next/link";
-import Button from "../Button/page";
+import Button from "../Button/button";
 
 export default function Hero() {
   const [displayedText, setDisplayedText] = useState("");
@@ -113,11 +112,11 @@ export default function Hero() {
           </p>
         </div>
       </div>
-      <button className={styles.button}>
+      <div className={styles.button}>
         <a href="/about">
           <Button text="Learn more" />
         </a>
-      </button>
+      </div>
     </div>
   );
 }

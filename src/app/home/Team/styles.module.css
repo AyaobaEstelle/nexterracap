@@ -6,7 +6,7 @@
 }
 
 .Frame h1 {
-  color: var(--blue-300);
+  color: var(--brand-400);
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
@@ -21,7 +21,7 @@
 }
 
 .link {
-  background: var(--blue-300);
+  background: var(--brand-400);
   color: var(--white);
   padding: 0.5em 2em;
   border-radius: 8px;
@@ -54,7 +54,7 @@
 .teamText small {
   margin-block-start: 1em;
   font-size: 1.2rem;
-  color: var(--blue-300);
+  color: var(--brand-400);
 }
 .teamText h1 {
   font-size: 2.5rem;
@@ -67,7 +67,7 @@
   margin-bottom: 3rem;
 }
 .teamButton {
-  background: var(--blue-300);
+  background: var(--brand-400);
   color: var(--white);
   padding: 0.5em 2em;
   border-radius: 8px;

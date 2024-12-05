@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
-import Footer from "../home/Footer/page";
+import Footer from "../home/Footer/footer";
 
 export default function Strategy() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -161,7 +161,7 @@ export default function Strategy() {
             <p>
               Co-investment with reputable local investors and FIs. This
               risk-sharing approach will leverage local knowledge and resources,
-              enhancing the overall investment ecosystem's stability and
+              enhancing the overall investment ecosystem&apos;s stability and
               sustainability.
             </p>
           </div>

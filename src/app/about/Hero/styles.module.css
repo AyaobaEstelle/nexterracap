@@ -47,7 +47,7 @@
 }
 
 .heroActionButton {
-  background: var(--blue-300);
+  background: var(--brand-400);
   color: var(--white);
   padding: 0.5em 2em;
   border-radius: 8px;
@@ -65,7 +65,7 @@
   font-weight: 600;
   font-size: 3rem;
   text-align: center;
-  color: var(--blue-300);
+  color: var(--brand-400);
   text-transform: uppercase;
 }
 .heroTitle span {

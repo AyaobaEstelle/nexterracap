@@ -99,7 +99,7 @@
   font-weight: 700;
 }
 .newsletter button {
-  background-color: var(--blue-300);
+  background-color: var(--brand-400);
   color: var(--white);
   border: none;
   padding: 1rem 4rem;

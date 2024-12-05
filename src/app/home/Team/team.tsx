@@ -2,7 +2,7 @@
 import React from "react";
 import styles from "./styles.module.css";
 import Counter from "../NumberCounter/Counter";
-import Button from "../Button/page";
+import Button from "../Button/button";
 
 export default function Team() {
   return (

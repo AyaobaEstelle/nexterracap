@@ -47,7 +47,7 @@
 }
 
 .heroActionButton {
-  background: var(--blue-300);
+  background: var(--brand-400);
   color: var(--white);
   padding: 0.5em 2em;
   border-radius: 8px;
@@ -65,7 +65,7 @@
   font-weight: bold;
   font-size: 3rem;
   text-align: center;
-  color: var(--blue-300);
+  color: var(--brand-400);
 }
 
 .heroNormal {
@@ -73,7 +73,7 @@
 }
 
 .heroTitleHighlight {
-  color: var(--blue-300);
+  color: var(--brand-400);
   position: relative;
 }
 .heroTitleHighlight:after {
@@ -94,7 +94,7 @@
 }
 
 .heroLink {
-  background: var(--blue-300);
+  background: var(--brand-400);
   color: var(--white);
   padding: 0.5em 2em;
   border-radius: 8px;

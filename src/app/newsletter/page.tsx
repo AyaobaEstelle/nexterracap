@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import styles from "./styles.module.css";
-import Footer from "../home/Footer/page";
-import NewsletterForm from "./form/page";
+import Footer from "../home/Footer/footer";
+import NewsletterForm from "./form/form";
 
 export default function Newsletter() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);

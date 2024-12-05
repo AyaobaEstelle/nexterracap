@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
-import Footer from "../home/Footer/page";
+import Footer from "../home/Footer/footer";
 
 export default function Esg() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);

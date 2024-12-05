@@ -14,7 +14,7 @@
 .text small {
   margin-block-start: 1em;
   font-size: 1.2rem;
-  color: var(--blue-300);
+  color: var(--brand-400);
 }
 .text h1 {
   font-size: 2.5rem;
@@ -33,7 +33,7 @@
   justify-content: center;
 }
 .button {
-  background: var(--blue-300);
+  background: var(--brand-400);
   color: var(--white);
   padding: 0.5em 2em;
   border-radius: 8px;
