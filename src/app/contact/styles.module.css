@@ -47,7 +47,7 @@
 }
 
 .heroActionButton {
-  background: var(--brand-400);
+  background: var(--blue-300);
   color: var(--white);
   padding: 0.5em 2em;
   border-radius: 8px;
@@ -119,7 +119,7 @@
 }
 .text h2 {
   font-size: 2rem;
-  color: var(--brand-400);
+  color: var(--blue-300);
   font-weight: bold;
   margin-bottom: 1.5rem;
   text-transform: uppercase;
@@ -135,7 +135,7 @@
   gap: 1.5rem;
 }
 .contactButton button {
-  background: var(--brand-400);
+  background: var(--blue-300);
   color: var(--white);
   padding: 1em 2em;
   border-radius: 8px;

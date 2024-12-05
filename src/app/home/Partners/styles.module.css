@@ -4,7 +4,7 @@
 .content {
   padding: 2rem 8rem;
   background-color: var(--blue-50);
-} 
+}
 
 .content h1 {
   font-size: 2.5rem;
@@ -41,7 +41,6 @@
 
 .carouselPrimary img {
   align-items: center;
-
 }
 
 .carouselPrimary {
@@ -66,7 +65,7 @@
 }
 
 .carouselPrimary:hover,
-.carouselPrimary:hover~.carouselSecondary {
+.carouselPrimary:hover ~ .carouselSecondary {
   -webkit-animation-play-state: paused;
   -moz-animation-play-state: paused;
   -o-animation-play-state: paused;
@@ -80,8 +79,7 @@
   animation-play-state: paused;
 }
 
-
-.scrollContainer:hover>.carouselPrimary:not(:hover) {
+.scrollContainer:hover > .carouselPrimary:not(:hover) {
   -webkit-animation-play-state: paused;
   -moz-animation-play-state: paused;
   -o-animation-play-state: paused;
@@ -99,7 +97,7 @@
   font-weight: 700;
 }
 .newsletter button {
-  background-color: var(--brand-400);
+  background-color: var(--blue-300);
   color: var(--white);
   border: none;
   padding: 1rem 4rem;
@@ -108,10 +106,8 @@
   transition: background-color 0.3s;
 }
 .newsletter button:hover {
-  background-color: var(--blue-400);
+  background-color: var(--brand-500);
 }
 .newsletter button a {
   font-size: 1.2rem;
 }
-
- 

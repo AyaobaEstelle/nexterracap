@@ -39,9 +39,9 @@ const Counters = () => {
     <div className={styles.container}>
       <hr className={styles.horizontalLine} />
       <div className={styles.countersWrapper}>
-        <Counter start={0} end={15} text="PortCos Scaled" />
+        <Counter start={0} end={15} text="Port. Cos. Scaled" />
         <hr className={styles.verticalLine} />
-        <Counter start={0} end={8} text="PortCos Profitable" />
+        <Counter start={0} end={8} text="Port. Cos. Profitable" />
       </div>
       <hr className={styles.horizontalLine} />
     </div>

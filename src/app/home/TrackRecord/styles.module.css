@@ -14,7 +14,7 @@
 .text small {
   margin-block-start: 1em;
   font-size: 1.2rem;
-  color: var(--brand-400);
+  color: var(--blue-300);
 }
 .text h1 {
   font-size: 2.5rem;
@@ -27,13 +27,13 @@
   margin-bottom: 2rem;
 }
 
-.counterButton{
+.counterButton {
   padding: 3rem;
   display: flex;
   justify-content: center;
 }
 .button {
-  background: var(--brand-400);
+  background: var(--blue-300);
   color: var(--white);
   padding: 0.5em 2em;
   border-radius: 8px;

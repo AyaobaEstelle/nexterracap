@@ -15,8 +15,8 @@ export default function Hero() {
 
   const messages = [
     "Capitalizing",
-    "Catalizing",
-    "Distupting",
+    "Catalyzing",
+    "Distrupting",
     "Enabling",
     "Empowering",
   ];
@@ -43,57 +43,6 @@ export default function Hero() {
   return (
     <div className={styles.container}>
       <div className={styles.hero}>
-        <header className={styles.heroHeader}>
-          <img src="https://i.postimg.cc/DfCvjcVb/nexterra-img.png" alt="" />
-          <nav className={styles.heroNav}>
-            <a href="/" className={styles.heroNavItem}>
-              Home
-            </a>
-            <a href="/about" className={styles.heroNavItem}>
-              About
-            </a>
-            <a href="esg" className={styles.heroNavItem}>
-              ESG
-            </a>
-            <div className={styles.dropdown}>
-              <a
-                href="#"
-                onClick={toggleDropdown}
-                className={`${styles.dropdownToggle} ${styles.heroNavItem}`}
-              >
-                Approach
-                <span
-                  className={`${styles.arrow} ${
-                    isDropdownOpen ? styles.arrowUp : ""
-                  }`}
-                ></span>
-              </a>
-              {isDropdownOpen && (
-                <ul className={styles.dropdownMenu}>
-                  <li className={styles.dropdownItem}>
-                    <a href="/strategy" className={styles.dropdownLink}>
-                      Investment Strategy
-                    </a>
-                  </li>
-                  <li className={styles.dropdownItem}>
-                    <a href="/syndicate" className={styles.dropdownLink}>
-                      Syndicate Investment
-                    </a>
-                  </li>
-                </ul>
-              )}
-            </div>
-          </nav>
-          <div className={styles.heroAction}>
-            <a href="/insights" className={styles.heroActionLink}>
-              Insights
-            </a>
-            <a href="/contact" className={styles.heroActionButton}>
-              Contact
-            </a>
-          </div>
-        </header>
-
         <div className={styles.heroText}>
           <h1 className={styles.heroTitle}>
             {displayedText}
@@ -103,10 +52,10 @@ export default function Hero() {
               Sustainable Impact{" "}
             </span>
           </h1>
-          <p className={styles.heroSubtitle}>
+          <p className={styles.heroDescription}>
             Our mission is to empower innovation for sustainable impact. We are
             driven by a deep commitment to fostering resilience, inclusivity,
-            and equity in every aspect of our work. <br /> Our goal is to drive
+            and equity in every aspect of our work. Our goal is to drive
             financial success and also create lasting positive change in the
             ecosystems we support.
           </p>

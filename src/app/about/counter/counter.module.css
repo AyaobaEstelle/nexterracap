@@ -30,7 +30,7 @@
 .number {
   font-size: 3rem;
   font-weight: bold;
-  color: var(--brand-400);
+  color: var(--blue-300);
 }
 
 .text {
