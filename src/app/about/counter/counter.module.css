@@ -8,9 +8,9 @@
 }
 
 .horizontalLine {
-  width: 85%;
+  width: 90%;
   border: none;
-  border-top: 1px solid black;
+  border-top: 1px solid var(--black);
   margin: 20px 0;
 }
 
@@ -35,11 +35,11 @@
 
 .text {
   font-size: 1.2rem;
-  color: black;
+  color: var(--black);
 }
 
 .verticalLine {
   border: none;
-  border-left: 1px solid black;
+  border-left: 1px solid var(--black);
   height: 100px;
 }

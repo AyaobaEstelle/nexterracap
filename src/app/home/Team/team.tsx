@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import styles from "./styles.module.css";
-import Counter from "../NumberCounter/Counter";
 import Button from "../Button/button";
+import Counter from "../NumberCounter/Counter";
 
 export default function Team() {
   return (

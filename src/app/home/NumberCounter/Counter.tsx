@@ -21,7 +21,7 @@ const Counter = ({ start, end, text }: HomeCounterProps) => {
           return prevCount;
         }
       });
-    }, 100);
+    }, 15);
 
     return () => clearInterval(interval);
   }, [end]);
