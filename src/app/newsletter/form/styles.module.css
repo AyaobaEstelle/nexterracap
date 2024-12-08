@@ -1,0 +1,57 @@
+.subscriptionForm {
+  width: 100%;
+  max-width: 400px;
+  margin-block-start: 3rem;
+  margin: 3rem;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.formGroup input[type="text"],
+.formGroup input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--blue-300);
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.privacyMessage {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.checkboxLabel input {
+  margin-right: 10px;
+}
+
+.subscribeButton {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: var(--blue-300);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subscribeButton:hover {
+  background-color: var(--blue-400);
+}

@@ -1,7 +1,8 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import styles from "./styles.module.css";
 import Footer from "../home/Footer/page";
+import NewsletterForm from "./form/page";
 
 export default function Newsletter() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -84,14 +85,7 @@ export default function Newsletter() {
         </div>
 
         <h3>Subscribe below to get the latest news and Updates.</h3>
-
-        <div className={styles.contactButton}>
-          <button>
-            <a href="https://share.hsforms.com/1VgxTm0LySlCDmScsmiCpbQsu01u">
-              subscribe
-            </a>
-          </button>
-        </div>
+        <NewsletterForm />
       </div>
       <Footer />
     </div>

@@ -1,24 +1,8 @@
 "use client";
-import Image from "next/image";
 import styles from "./styles.module.css";
 import Counters from "../TrackCounter/counter";
 
 const TrackRecords = () => {
-  const logos = [
-    "/logos/GrowAgric.png",
-    "/logos/t40.png",
-    "/logos/lab.png",
-    "/logos/TradeLenda.png",
-    "/logos/quizac.png",
-    "/logos/loose-change.png",
-    "/logos/SolarFi.png",
-    "/logos/axologo.png",
-    "/logos/onefarm.png",
-    "/logos/Aquafarm.png",
-    "/logos/a-trader.png",
-    "/logos/Echoboo.png",
-  ];
-
   return (
     <div className={styles.container}>
       <div className={styles.text}>
@@ -35,26 +19,107 @@ const TrackRecords = () => {
         <div className={styles.teamCounter}>
           <Counters />
         </div>
-        <button>
-          <a href="#" className={styles.button}>
-            Learn more
-          </a>
-        </button>
+        <div className={styles.counterButton}>
+          <button>
+            <a href="#" className={styles.button}>
+              Learn more
+            </a>
+          </button>
+        </div>
       </div>
       <div className={styles.carouselContainer}>
-        <div className={styles.carousel}></div>
         <div className={styles.carousel}>
-          {logos.map((logo, index) => (
-            <div key={index} className={styles.logoWrapper}>
-              <Image
-                src={logo}
-                alt={`Logo ${index + 1}`}
-                width={200}
-                height={200}
-                className={styles.logo}
-              />
-            </div>
-          ))}
+          <a
+            href="https://growagric.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://i.postimg.cc/SRb2TykG/Grow-Agric.png"
+              alt="Grow Agric"
+            />
+          </a>
+          <a
+            href="https://myt40.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="https://i.postimg.cc/JhgBXNFv/t40.png" alt="T40" />
+          </a>
+          <a
+            href="https://labeight.tech/t4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="https://i.postimg.cc/50CQSHd0/lab.png" alt="Lab" />
+          </a>
+          <a
+            href="https://tradelenda.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://i.postimg.cc/pdyFyGsK/Trade-Lenda.png"
+              alt="Trade Lenda"
+            />
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <img src="https://i.postimg.cc/RZgtS5LM/quizac.png" alt="Quizac" />
+          </a>
+          <a
+            href="https://www.getloosechange.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://i.postimg.cc/bwybfNbC/loose-change.png"
+              alt="Loose Change"
+            />
+          </a>
+          <a
+            href="https://solar-fi.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://i.postimg.cc/TYqmsWy5/SolarFi.png"
+              alt="SolarFi"
+            />
+          </a>
+          <a
+            href="https://axocheck.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://i.postimg.cc/CLVkJ4KV/axologo.png"
+              alt="Axologo"
+            />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://i.postimg.cc/cHpYpRMw/onefarm.png"
+              alt="OneFarm"
+            />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://i.postimg.cc/bYn1Q5pT/Aquafarm.png"
+              alt="AquaFarm"
+            />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://i.postimg.cc/Bb2D4jMy/a-trader.png"
+              alt="A Trader"
+            />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://i.postimg.cc/k46KY187/Echoboo.png"
+              alt="Echoboo"
+            />
+          </a>
         </div>
       </div>
     </div>
