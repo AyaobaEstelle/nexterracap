@@ -1,0 +1,278 @@
+.hero {
+  background-image: url("../../../public/img/aurora.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+  background-size: 100% 70%;
+  padding-top: 0.5rem;
+}
+.heroHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 6em;
+}
+
+.heroNav {
+  font-size: 1.125rem;
+  display: flex;
+  align-items: baseline;
+  gap: 2em;
+}
+
+.heroNavItem {
+  font-weight: medium;
+}
+
+.heroNavItemDropdown {
+  font-weight: medium;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.2em;
+  cursor: pointer;
+}
+
+.heroAction {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+.heroActionLink {
+  color: rgba(0, 101, 254, 1);
+}
+
+.heroActionButton {
+  background: var(--blue-300);
+  color: var(--white);
+  padding: 0.5em 2em;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.heroText {
+  max-width: 60%;
+  margin-inline: auto;
+  margin-block-start: 5em;
+}
+.heroTitle {
+  line-height: 2;
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
+  color: var(--blue-300);
+  text-transform: uppercase;
+}
+.heroTitle span {
+  color: var(--black);
+}
+
+.heroSubtitle {
+  margin-bottom: 1rem;
+}
+.heroSubtitle h3 {
+  color: var(--black);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.heroSubtitle h3 span {
+  color: var(--blue-300);
+  text-transform: uppercase;
+}
+.heroSubtitle .listItems {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  color: var(--blue-300);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.listItems span {
+  color: var(--black);
+}
+.subtitleText {
+  padding-bottom: 2rem;
+}
+.subtitleText p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  color: var(--black);
+}
+.heroText button {
+  background-color: var(--blue-300);
+  color: var(--white);
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  text-transform: capitalize;
+}
+.dropdown {
+  position: relative;
+}
+
+.dropdownToggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+  transition: transform 0.3s ease;
+}
+
+.arrowUp {
+  transform: rotate(180deg);
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--white);
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  margin: 0;
+  width: 200px;
+}
+.dropdownItem {
+  padding: 10px 20px;
+  display: block;
+}
+.dropdownItem a {
+  font-size: 0.8rem;
+  color: black;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+}
+
+.dropdownLink {
+  color: var(--black);
+  text-decoration: none;
+  margin: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.invest {
+  text-align: center;
+  padding: 2rem;
+}
+.invest p {
+  font-weight: 600;
+}
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.cardItems {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cardItems li {
+  display: flex; 
+  align-items: center;
+  margin: 0.5rem 0; 
+  position: relative;
+  padding-left: 2.5rem;
+}
+
+.cardItems li::before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-color: var(--blue-300);
+  border-radius: 50%; 
+  position: absolute;
+  left: 0; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.strategy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 6rem;
+  background-color: var(--blue-50);
+
+}
+
+.strategy h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: var(--black);
+}
+.strategyContainerWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center; 
+
+}
+.strategyContainer {
+  flex: 1;
+  padding: 2rem;
+  margin: 1rem;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.strategyContainer h2 {
+  position: relative;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--black);
+  text-align: center;
+}
+
+.strategyContainer p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--black);
+}
+.divider {
+    height: 2px;
+    background-color: var(--blue-100);
+    border: none;
+    margin: 20px 0;
+  }
+  .funds {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 2rem;  
+  }
+  .funds button {
+    background-color: var(--blue-300);
+    color: var(--white);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+  }
+
+
+

@@ -1,53 +1,21 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
-import Link from "next/link";
-import Button from "../Button/page";
+import Footer from "../home/Footer/page";
 
-export default function Hero() {
-  const [displayedText, setDisplayedText] = useState("");
-  const [charIndex, setCharIndex] = useState(0);
-  const [messageIndex, setMessageIndex] = useState(0);
+export default function Syndicate() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
-
-  const messages = [
-    "Capitalizing",
-    "Catalizing",
-    "Distupting",
-    "Enabling",
-    "Empowering",
-  ];
-
-  useEffect(() => {
-    if (charIndex < messages[messageIndex].length) {
-      const timeout = setTimeout(() => {
-        setDisplayedText((prev) => prev + messages[messageIndex][charIndex]);
-        setCharIndex((prev) => prev + 1);
-      }, 100);
-
-      return () => clearTimeout(timeout);
-    } else {
-      const nextMessageTimeout = setTimeout(() => {
-        setDisplayedText("");
-        setCharIndex(0);
-        setMessageIndex((prev) => (prev + 1) % messages.length);
-      }, 2000);
-
-      return () => clearTimeout(nextMessageTimeout);
-    }
-  }, [charIndex, messageIndex, messages]);
-
   return (
     <div className={styles.container}>
       <div className={styles.hero}>
         <header className={styles.heroHeader}>
           <img src="https://i.postimg.cc/DfCvjcVb/nexterra-img.png" alt="" />
           <nav className={styles.heroNav}>
-            <a href="/" className={styles.heroNavItem}>
+            <a href="/home" className={styles.heroNavItem}>
               Home
             </a>
             <a href="/about" className={styles.heroNavItem}>
@@ -77,7 +45,7 @@ export default function Hero() {
                     </a>
                   </li>
                   <li className={styles.dropdownItem}>
-                    <a href="/syndicate" className={styles.dropdownLink}>
+                    <a href="/" className={styles.dropdownLink}>
                       Syndicate Investment
                     </a>
                   </li>
@@ -97,27 +65,33 @@ export default function Hero() {
 
         <div className={styles.heroText}>
           <h1 className={styles.heroTitle}>
-            {displayedText}
-            <br /> <span className={styles.heroNormal}>Innovation for</span>
-            <span className={styles.heroTitleHighlight}>
-              {" "}
-              Sustainable Impact{" "}
-            </span>
+            D<span>eal by deal syndicate investments</span>
           </h1>
-          <p className={styles.heroSubtitle}>
-            Our mission is to empower innovation for sustainable impact. We are
-            driven by a deep commitment to fostering resilience, inclusivity,
-            and equity in every aspect of our work. <br /> Our goal is to drive
-            financial success and also create lasting positive change in the
-            ecosystems we support.
-          </p>
+          <div className={styles.heroSubtitle}>
+            <p>
+              Our Syndicate investments is a collaborative investment approach
+              that brings together a network of strategic partners and
+              investors. This strategy provides a platform for pooling
+              resources, expertise, and capital to support promising startups.
+              With a focus on tech and tech-enabled businesses across various
+              sectors, including fintech, climate, health, and agriculture, we
+              leverage our deep market knowledge and extensive network to
+              identify high-potential investment opportunities.
+            </p>
+            <p>
+              Through our Syndicate investments, we strive to drive sustainable
+              growth, create meaningful impact, and deliver attractive returns
+              to our investors.
+            </p>
+          </div>
+        </div>
+        <div className={styles.button}>
+          <button>
+            <a href="#">Join the Syndicate</a>
+          </button>
         </div>
       </div>
-      <button className={styles.button}>
-        <a href="#">
-          <Button text="Learn more" />
-        </a>
-      </button>
+      <Footer />
     </div>
   );
 }
