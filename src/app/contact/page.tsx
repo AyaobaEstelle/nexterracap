@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
-import Footer from "../home/Footer/page";
+import Footer from "@/components/Footer/footer";
 
 export default function Insights() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);

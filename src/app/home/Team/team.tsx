@@ -2,11 +2,13 @@
 import React from "react";
 import styles from "./styles.module.css";
 import Counter from "../NumberCounter/Counter";
-import Button from "../Button/page";
+import Button from "../Button/button";
 
 export default function Team() {
   return (
     <div className={styles.container}>
+      <hr />
+
       <div className={styles.Frame}>
         <h1>who we are</h1>
         <p>
@@ -18,32 +20,32 @@ export default function Team() {
           in identifying and amplifying promising tech startups that deliver
           financial returns and create positive social and economic impact.
         </p>
-        <button className={styles.button}>
+        <div className={styles.button}>
           <a href="/about">
             <Button text="Learn more" />
           </a>
-        </button>
+        </div>
       </div>
-      <hr />
       <div className={styles.team}>
-        <img src="https://i.postimg.cc/1tsmTC5D/team-img.avif" alt="" />
+        <img
+          src="https://i.postimg.cc/1tsmTC5D/team-img.avif"
+          alt="team"
+          className={styles.teamImage}
+        />
 
         <div className={styles.teamText}>
           <small>The story of</small>
           <h1>The Team</h1>
           <p>
-            Driven by shared vision and boundless determination, we are <br /> a
-            collective of progress catalysts and advocates for positive change.{" "}
-            <br />
+            Driven by shared vision and boundless determination, we are a
+            collective of progress catalysts and advocates for positive change.
             Our belief in untapped markets and sustainable entrepreneurship
-            fuels <br /> our drive to redefine emerging entrepreneurs.
+            fuels our drive to redefine emerging entrepreneurs.
           </p>
           <p className={styles.teamTextContent}>
             Challenging the status quo and embracing diversity, we aim to
-            partner,
-            <br /> make strategic investments and provide support to those who
-            dare <br />
-            to create a lasting impact.
+            partner, make strategic investments and provide support to those who
+            dare to create a lasting impact.
           </p>
           <a href="#" className={styles.teamButton}>
             Learn more
@@ -51,11 +53,11 @@ export default function Team() {
           <Counter />
         </div>
       </div>
-      <button className={styles.ButtonApply}>
+      <div className={styles.ButtonApply}>
         <a href="https://share-eu1.hsforms.com/1k1EyUwMLQZuu_54oNvtDogfu7um">
           <Button text="Apply for funding" />
         </a>
-      </button>
+      </div>
     </div>
   );
 }

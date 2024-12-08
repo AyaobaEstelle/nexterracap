@@ -1,4 +1,4 @@
-import Button from "../Button/page";
+import Button from "../Button/button";
 import styles from "./styles.module.css";
 
 const InvestmentItems = () => {
@@ -58,7 +58,7 @@ const InvestmentItems = () => {
               <li>Diverse team & excellent management execution</li>
               <li>Community minded</li>
               <li>Clear path to M&A</li>
-              <li>Alignment with "ESG-UNSDG Impact" factors:</li>
+              <li>Alignment with ESG&#8211;UNSDG Impact factors:</li>
             </ul>
           </div>
         </div>

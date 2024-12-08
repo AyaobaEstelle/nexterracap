@@ -11,6 +11,13 @@
   --white: rgba(255, 255, 255, 1);
   --blue-100: rgba(50, 132, 255, 0.13);
   --blue-200: rgba(73, 145, 255, 1);
+  /* --orange-400: #ff7a3d; */
+  --orange-400: #e7762f;
+  --orange-500: #b94b07;
+  --text-100: #555;
+
+  --brand-400: var(--orange-400);
+  --brand-500: var(--orange-500);
 }
 
 * {
@@ -25,5 +32,4 @@ body {
   overflow-x: hidden;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  color: var(--black);
 }
