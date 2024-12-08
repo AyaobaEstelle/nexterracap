@@ -64,7 +64,7 @@ const InvestmentItems = () => {
         </div>
       </div>
       <button className={styles.button}>
-        <a href="#">
+        <a href="/about">
           <Button text="Learn More" />
         </a>
       </button>

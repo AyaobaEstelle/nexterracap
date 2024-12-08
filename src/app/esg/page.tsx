@@ -54,10 +54,10 @@ export default function Esg() {
             </div>
           </nav>
           <div className={styles.heroAction}>
-            <a href="#" className={styles.heroActionLink}>
+            <a href="/insights" className={styles.heroActionLink}>
               Insights
             </a>
-            <a href="#" className={styles.heroActionButton}>
+            <a href="/contact" className={styles.heroActionButton}>
               Contact
             </a>
           </div>
@@ -75,16 +75,22 @@ export default function Esg() {
         </div>
         <div className={styles.textContainer}>
           <div className={styles.textItem}>
-            <p>Nexterra-SFDR Product Disclosures</p>
+            <a href="https://drive.google.com/file/d/18IjOw48KXQ_DVKha6kg2vdIf1aHU7tgH/view?usp=drive_link">
+              Nexterra-SFDR Product Disclosures
+            </a>
             <hr />
           </div>
           <div className={styles.textItem}>
-            <p>NEXTERRA-SFDR Entity level disclosures</p>
+            <a href="https://drive.google.com/file/d/1p8_sI9rp47PD9SfOkubQfuFttVjWiSTF/view?usp=drive_link">
+              NEXTERRA-SFDR Entity level disclosures
+            </a>
             <hr />
           </div>
         </div>
         <div className={styles.textItem}>
-          <p>ESG FrameWork</p>
+          <a href="https://nexterra.notion.site/FrameWork-398fc74e428948c4acf620133bcb3017">
+            ESG FrameWork
+          </a>
           <hr />
         </div>
         <div className={styles.textContent}>

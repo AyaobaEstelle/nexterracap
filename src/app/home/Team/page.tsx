@@ -19,7 +19,7 @@ export default function Team() {
           financial returns and create positive social and economic impact.
         </p>
         <button className={styles.button}>
-          <a href="#">
+          <a href="/about">
             <Button text="Learn more" />
           </a>
         </button>
@@ -52,7 +52,7 @@ export default function Team() {
         </div>
       </div>
       <button className={styles.ButtonApply}>
-        <a href="#">
+        <a href="https://share-eu1.hsforms.com/1k1EyUwMLQZuu_54oNvtDogfu7um">
           <Button text="Apply for funding" />
         </a>
       </button>

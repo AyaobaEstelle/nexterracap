@@ -86,10 +86,10 @@ export default function Hero() {
             </div>
           </nav>
           <div className={styles.heroAction}>
-            <a href="#" className={styles.heroActionLink}>
+            <a href="/insights" className={styles.heroActionLink}>
               Insights
             </a>
-            <a href="#" className={styles.heroActionButton}>
+            <a href="/contact" className={styles.heroActionButton}>
               Contact
             </a>
           </div>
@@ -114,7 +114,7 @@ export default function Hero() {
         </div>
       </div>
       <button className={styles.button}>
-        <a href="#">
+        <a href="/about">
           <Button text="Learn more" />
         </a>
       </button>

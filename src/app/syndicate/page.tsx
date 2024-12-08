@@ -54,10 +54,10 @@ export default function Syndicate() {
             </div>
           </nav>
           <div className={styles.heroAction}>
-            <a href="#" className={styles.heroActionLink}>
+            <a href="/insights" className={styles.heroActionLink}>
               Insights
             </a>
-            <a href="#" className={styles.heroActionButton}>
+            <a href="/contact" className={styles.heroActionButton}>
               Contact
             </a>
           </div>
@@ -87,7 +87,9 @@ export default function Syndicate() {
         </div>
         <div className={styles.button}>
           <button>
-            <a href="#">Join the Syndicate</a>
+            <a href="https://venture.angellist.com/nexterra/syndicate">
+              Join the Syndicate
+            </a>
           </button>
         </div>
       </div>

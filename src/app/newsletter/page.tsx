@@ -1,8 +1,9 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
+import Footer from "../home/Footer/page";
 
-export default function Hero() {
+export default function Newsletter() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -17,10 +18,10 @@ export default function Hero() {
             <a href="/home" className={styles.heroNavItem}>
               Home
             </a>
-            <a href="/" className={styles.heroNavItem}>
+            <a href="about" className={styles.heroNavItem}>
               About
             </a>
-            <a href="/esg" className={styles.heroNavItem}>
+            <a href="esg" className={styles.heroNavItem}>
               ESG
             </a>
             <div className={styles.dropdown}>
@@ -56,37 +57,43 @@ export default function Hero() {
             <a href="/insights" className={styles.heroActionLink}>
               Insights
             </a>
-            <a href="/contact" className={styles.heroActionButton}>
+            <a href="/" className={styles.heroActionButton}>
               Contact
             </a>
           </div>
         </header>
+      </div>
+      <div className={styles.text}>
+        <h2>Newsletter</h2>
+        <div className={styles.textContent}>
+          <p>
+            If you&rsquo;re looking to stay up-to-date on the latest news, and
+            exciting updates about us, we invite you to sign up for our
+            newsletter below. Our newsletter is the perfect way to keep in touch
+            with us and never miss out on the latest and greatest information.
+          </p>
+          <p>
+            As a subscriber, you&rsquo;ll receive timely and relevant
+            information about Nexterra Capital, delivered straight to your
+            inbox. Nexterra Capital Newsletter is a great way to stay connected
+            with us and never miss out on anything important. We promise to keep
+            you informed, without overwhelming your inbox.
+          </p>
 
-        <div className={styles.heroText}>
-          <h1 className={styles.heroTitle}>
-            N<span>exterra capital</span>
-          </h1>
-          <div className={styles.heroSubtitle}>
-            <p>
-              We are an early stage VC firm backing exceptional founders at the
-              seed-post seed stages.
-            </p>
-            <p>
-              We believe in the power of entrepreneurship and innovation to
-              transform economies and societies. By supporting and investing in
-              tech-enabled businesses across Africa, we aim to fuel job
-              creation, stimulate economic growth, and address pressing social
-              and environmental challenges.
-            </p>
-            <p>
-              Recognizing the urgent need to address climate change, we are
-              committed to channeling funding to businesses that actively
-              mitigate its impact. Additionally, we support enterprises that
-              champion equal opportunities for all.
-            </p>
-          </div>
+          <p>We look forward to welcoming you to the community.</p>
+        </div>
+
+        <h3>Subscribe below to get the latest news and Updates.</h3>
+
+        <div className={styles.contactButton}>
+          <button>
+            <a href="https://share.hsforms.com/1VgxTm0LySlCDmScsmiCpbQsu01u">
+              subscribe
+            </a>
+          </button>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

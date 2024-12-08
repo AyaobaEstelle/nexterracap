@@ -29,7 +29,7 @@ export default function Partners() {
       <div className={styles.newsletter}>
         <h1>Nexterra Newsletter</h1>
         <button>
-          <a href="#">subscribe</a>
+          <a href="/newsletter">subscribe</a>
         </button>
       </div>
     </div>

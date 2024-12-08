@@ -1,8 +1,9 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
+import Footer from "../home/Footer/page";
 
-export default function Hero() {
+export default function Insights() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -17,10 +18,10 @@ export default function Hero() {
             <a href="/home" className={styles.heroNavItem}>
               Home
             </a>
-            <a href="/" className={styles.heroNavItem}>
+            <a href="about" className={styles.heroNavItem}>
               About
             </a>
-            <a href="/esg" className={styles.heroNavItem}>
+            <a href="esg" className={styles.heroNavItem}>
               ESG
             </a>
             <div className={styles.dropdown}>
@@ -56,37 +57,32 @@ export default function Hero() {
             <a href="/insights" className={styles.heroActionLink}>
               Insights
             </a>
-            <a href="/contact" className={styles.heroActionButton}>
+            <a href="/" className={styles.heroActionButton}>
               Contact
             </a>
           </div>
         </header>
-
-        <div className={styles.heroText}>
-          <h1 className={styles.heroTitle}>
-            N<span>exterra capital</span>
-          </h1>
-          <div className={styles.heroSubtitle}>
-            <p>
-              We are an early stage VC firm backing exceptional founders at the
-              seed-post seed stages.
-            </p>
-            <p>
-              We believe in the power of entrepreneurship and innovation to
-              transform economies and societies. By supporting and investing in
-              tech-enabled businesses across Africa, we aim to fuel job
-              creation, stimulate economic growth, and address pressing social
-              and environmental challenges.
-            </p>
-            <p>
-              Recognizing the urgent need to address climate change, we are
-              committed to channeling funding to businesses that actively
-              mitigate its impact. Additionally, we support enterprises that
-              champion equal opportunities for all.
-            </p>
-          </div>
+      </div>
+      <div className={styles.text}>
+        <h2>Contact us</h2>
+        <p>
+          PLEASE FILL OUT ONE OF THE FORMS BELOW AND WE WILL BE IN TOUCH AS SOON
+          AS POSSIBLE
+        </p>
+        <div className={styles.contactButton}>
+          <button>
+            <a href="https://share-eu1.hsforms.com/1k1EyUwMLQZuu_54oNvtDogfu7um">
+              apply for funding
+            </a>
+          </button>
+          <button>
+            <a href="https://share-eu1.hsforms.com/1MgjuEspOT-ax0vGUkp5ESQfu7um">
+              investors/general enquiry
+            </a>
+          </button>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
